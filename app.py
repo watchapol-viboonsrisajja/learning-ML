@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+from sklearn.linear_model import LogisticRegression
 
 # Load model
 model = joblib.load("best_model.pkl")
